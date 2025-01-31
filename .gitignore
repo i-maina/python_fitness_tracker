@@ -135,9 +135,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-.myenv
-myenv/
-myenv.bak/
+# TODO:Ignore environment folder
+# .myenv
+# myenv/
+# myenv.bak/
 
 # Spyder project settings
 .spyderproject

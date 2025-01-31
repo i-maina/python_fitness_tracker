@@ -1,7 +1,7 @@
 exercise_data = {}
 
 
-def display_summery():
+def show_summery():
     pass
 
 

@@ -1,3 +1,4 @@
+from exercise import log_exercise, show_summery
 from input_validation import get_positive_integer
 
 
@@ -14,11 +15,11 @@ def main():
     while True:
         choice = ask_for_choice()
         if choice == 1:
-            pass
+            log_exercise()
         elif choice == 2:
-            pass
+            show_summery()
         elif choice == 3:
-            pass
+            print("Exiting the Fitness Tracker , Goodbye !")
         else:
             print("Invalid choice")
 
